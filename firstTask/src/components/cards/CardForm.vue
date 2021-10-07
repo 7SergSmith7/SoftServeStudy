@@ -46,7 +46,6 @@
                 color="blue darken-1"
                 text
                 @click="addCard"
-
             >
               Save
             </v-btn>

@@ -1,12 +1,12 @@
 <template>
   <v-container>
-    <CardList/>
+    <card-list/>
   </v-container>
 
 </template>
 
 <script>
-import CardList from '../components/CardList';
+import CardList from '@/components/CardList';
 
 export default {
   name: "MainPage",

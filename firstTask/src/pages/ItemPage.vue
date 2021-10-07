@@ -4,7 +4,7 @@
     <router-link to="/main">Back</router-link>
   </v-btn>
 
-  <CardItem :card="this.$store.getters.getCurrentCard" />
+  <card-item :card="this.$store.getters.getCurrentCard" />
 </v-container>
 </template>
 
